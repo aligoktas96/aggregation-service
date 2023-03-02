@@ -1,0 +1,10 @@
+filebeat.autodiscover:
+  providers:
+    - type: docker
+      hints.enabled: true
+
+output.elasticsearch:
+  hosts: [ "elasticsearch:9200" ]
+
+logging.level: error
+logging.metrics.enabled: false

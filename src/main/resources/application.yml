@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: aggregation-contract-app
+
+springdoc:
+  swagger-ui:
+    path: /doc
+
+server:
+  port: 8080
