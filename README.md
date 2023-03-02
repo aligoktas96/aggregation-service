@@ -60,6 +60,7 @@ Aggregation Service
 
 - The Docker engine must be running to run tests.
 - Unit ✅
+- Integration ✅
 
 ## 📝 Note
 
